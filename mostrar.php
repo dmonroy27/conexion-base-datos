@@ -32,10 +32,10 @@
                 while ($fila = $resultado->fetch_assoc()) {
                     ?>
                     <tr>
-                        <td><?php echo $fila['nombre']?></td>
-                        <td><?php echo $fila['autor']?></td>
-                        <td><?php echo $fila['precio']?></td>
-                        <td><?php echo $fila['disponible']?></td>
+                        <td scope="row"><?php echo $fila['nombre']?></td>
+                        <td scope="row"><?php echo $fila['autor']?></td>
+                        <td scope="row"><?php echo $fila['precio']?></td>
+                        <td scope="row"><?php echo $fila['disponible']?></td>
                     </tr>
                 <?php } ?>
             </tbody>
