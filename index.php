@@ -19,9 +19,11 @@
         <input type="text" id="email" name="precio" required><br><br>
 
 		<div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
+    <label for="inputState" class="form-label">disponibilidad</label>
+	
     <select id="inputState" class="form-select" name= "disponible">
-      <option selected>si disponible</option>
+      <option selected>
+		disponible</option>
       <option>no disponible</option>
     </select>
   </div> <br><br>
